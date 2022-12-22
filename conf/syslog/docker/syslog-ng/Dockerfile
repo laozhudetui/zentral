@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:bullseye
 MAINTAINER Éric Falconnier <eric.falconnier@112hz.com>
 
 RUN apt-get update -qq && apt-get upgrade && apt-get install -y syslog-ng
