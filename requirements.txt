@@ -35,3 +35,4 @@ tqdm
 XlsxWriter
 josepy                          # Auth / OpenID Connect
 python-ldap                     # Auth / LDAP
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
