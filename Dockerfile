@@ -97,7 +97,7 @@ RUN pip install -r requirements_gcp.txt
 # - copy tini, mkbom and xar from stage 0
 #
 
-FROM python:3.9-slim as base-runner
+FROM python:3.13.0a3-slim as base-runner
 
 # zentral apt dependencies
 RUN apt-get update && \
