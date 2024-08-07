@@ -11,3 +11,4 @@ kombu[sqs]<4.7  # 4.7 for compatibility with celery<4.5
 # to make sure that the celery workers will start
 # TODO: understand why!!!
 pycurl
+django>=4.2.15 # not directly required, pinned by Snyk to avoid a vulnerability
